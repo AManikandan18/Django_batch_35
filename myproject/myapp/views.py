@@ -86,3 +86,5 @@ class StudentViewSet(viewsets.ModelViewSet):
 
 #Signals Value Inserted:
 Student_Signals.objects.create(name = "Arul",age = 23)
+
+Student_Signals.objects.create(name = "Jeeva",age = 24)
